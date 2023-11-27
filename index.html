@@ -97,9 +97,9 @@
         modelViewer.addEventListener('load', () => {
           const center = modelViewer.getBoundingBoxCenter();
           const size = modelViewer.getDimensions();
-          const x2 = size.x / 2;
-          const y2 = size.y / 2;
-          const z2 = size.z / 2;
+          const x2 = size.x / 10;
+          const y2 = size.y / 10;
+          const z2 = size.z / 10;
       
           modelViewer.updateHotspot({
             name: 'hotspot-dot+X-Y+Z',
